@@ -973,6 +973,36 @@ hr {
   width: 120px;
   height: 110px;
 }
+.body .select-email .petal_mail {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 5px solid #F1453B;
+  background-color: #F1453BA3;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: .5s;
+}
+.body .select-email .petal_mail:hover {
+  width: 320px;
+  height: 320px;
+  border: 5px solid #FF775B;
+  background-color: #FF775BA3;
+}
+.body .select-email .petal_mail img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  transition-duration: .5s;
+}
+.body .select-email .petal_mail img:hover {
+  width: 120px;
+  height: 120px;
+}
 .body .privacy_policy img {
   display: block;
   width: 150px;
