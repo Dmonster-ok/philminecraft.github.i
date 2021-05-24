@@ -15,7 +15,7 @@ window.addEventListener ('load', function(){
         const loader = document.querySelector('.loader');
         loader.className += ' hidden';
         console.log(loader);
-      }, 5000);
+      }, 2000);
 });
 
 
