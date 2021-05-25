@@ -583,7 +583,7 @@ footer .year {
     display: none;
   }
   
-  footer {
+  footer .social {
     margin-right: 983px;
     overflow-x: hidden;
   }
