@@ -235,40 +235,6 @@ footer {
   padding: 5px;
   color: #fff;
 }
-footer a {
-  color: #000000;
-  color: #fff;
-}
-footer .social {
-  margin: auto;
-  width: 350px;
-  height: auto;
-  text-align: center;
-}
-footer .social img {
-  border-radius: 5px;
-  width: 40px;
-  height: 40px;
-  transition-duration: .3s;
-}
-footer .social img:hover {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 13px;
-  border-radius: 25px;
-  box-shadow: 4px 13px 4px #00FFBA52;
-}
-footer .pricon a {
-  margin-left: 10px;
-  transition-duration: .5s;
-}
-footer .pricon a:hover {
-  text-decoration: underline;
-  color: #00FFBA;
-}
-footer .year {
-  float: right;
-}
 
 .rfbstore-footer {
   float: left;
@@ -285,6 +251,41 @@ footer .year {
 
 @media only screen and (max-width: 632px) {
   
+  footer a {
+    color: #000000;
+    color: #fff;
+  }
+  footer .social {
+    margin: auto;
+    width: 350px;
+    height: auto;
+    text-align: center;
+  }
+  footer .social img {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    transition-duration: .3s;
+  }
+  footer .social img:hover {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 13px;
+    border-radius: 25px;
+    box-shadow: 4px 13px 4px #00FFBA52;
+  }
+  footer .pricon a {
+    margin-left: 10px;
+    transition-duration: .5s;
+  }
+  footer .pricon a:hover {
+    text-decoration: underline;
+    color: #00FFBA;
+  }
+  footer .year {
+    float: right;
+  }
+    
   /* other styles -- mobile */
     
   .nav {
@@ -449,15 +450,45 @@ footer .year {
   footer {
     
   }
+  footer a {
+    color: #000000;
+    color: #fff;
+  }
   footer .social {
     float: left;
+    margin: auto;
+    width: 350px;
+    height: auto;
+    text-align: center;
+  }
+  footer .social img {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    transition-duration: .3s;
+  }
+  footer .social img:hover {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 13px;
+    border-radius: 25px;
+    box-shadow: 4px 13px 4px #00FFBA52;
   }
   footer .pricon {
     text-decoration: underline;
     text-align: center;
     margin-top: 30px;
   }
+  footer .pricon a {
+    margin-left: 10px;
+    transition-duration: .5s;
+  }
+  footer .pricon a:hover {
+    text-decoration: underline;
+    color: #00FFBA;
+  }
   footer .year {
+    float: right;
     margin-top: 8%;
   }
   
@@ -578,13 +609,13 @@ footer .year {
   }
 }
 
-@media screen and (min-width: 883px) {
+@media screen and (min-width: 983px) {
   header h2 {
     display: none;
   }
   
   footer .social {
-    margin-right: 983px;
+    margin-left: 250px;
   }
   
   /* other styles -- desktop */
