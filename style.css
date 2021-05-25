@@ -584,7 +584,7 @@ footer .year {
   }
   
   footer {
-    right: 983px;
+    margin-right: 983px;
     overflow-x: hidden;
   }
   
