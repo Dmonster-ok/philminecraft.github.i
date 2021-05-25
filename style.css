@@ -586,7 +586,7 @@ footer .year {
   /* other styles -- desktop */
   
   .nav {
-    display: none;
+    display: block;
     height: 120%;
     width: 250px;
     position: fixed;
