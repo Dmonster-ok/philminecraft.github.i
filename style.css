@@ -578,7 +578,7 @@ footer .year {
   }
 }
 
-@media screen and (min-width: 983px) {
+@media screen and (min-width: 883px) {
   header h2 {
     display: none;
   }
