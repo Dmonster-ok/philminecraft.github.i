@@ -1942,6 +1942,37 @@ hr {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.body .thumbnail_ct .thumbnail_c {
+  height: 80px;
+  transition-duration: .5s;
+  animation: down_opac 1s;
+  animation-fill-mode: forwards;
+  opacity: 0%;
+}
+.body .thumbnail_ct .thumbnail_c:hover {
+  background-color: #575783;
+}
+.body .thumbnail_ct .thumbnail_c h3 {
+  overflow: hidden;
+  width: auto;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.body .thumbnail_ct .thumbnail_c h3:hover {
+  text-decoration: underline;
+}
+.body .thumbnail_ct .thumbnail_c h6 {
+  overflow: hidden;
+  width: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .body .navigate_bn {
   margin-top: 100px;
   margin-bottom: 70px;
