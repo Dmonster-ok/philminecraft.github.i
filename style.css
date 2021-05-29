@@ -996,12 +996,12 @@ hr {
 .body .select-email .gmail img {
   display: block;
   width: 100px;
-  height: 85px;
+  height: 100px;
   transition-duration: .5s;
 }
 .body .select-email .gmail img:hover {
   width: 120px;
-  height: 105px;
+  height: 120px;
 }
 .body .select-email .outlook {
   margin: auto;
@@ -1026,12 +1026,12 @@ hr {
 .body .select-email .outlook img {
   display: block;
   width: 100px;
-  height: 90px;
+  height: 100px;
   transition-duration: .5s;
 }
 .body .select-email .outlook img:hover {
   width: 120px;
-  height: 110px;
+  height: 120px;
 }
 .body .select-email .petal_mail {
   margin: auto;
@@ -2022,6 +2022,37 @@ hr {
   text-decoration: underline;
 }
 .body .addon-ip_ct .addon-ip_c h6 {
+  overflow: hidden;
+  width: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.body .division_ct .division_c {
+  height: 80px;
+  transition-duration: .5s;
+  animation: down_opac 1s;
+  animation-fill-mode: forwards;
+  opacity: 0%;
+}
+.body .division_ct .division_c:hover {
+  background-color: #575783;
+}
+.body .division_ct .division_c h3 {
+  overflow: hidden;
+  width: auto;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.body .division_ct .division_c h3:hover {
+  text-decoration: underline;
+}
+.body .division_ct .division_c h6 {
   overflow: hidden;
   width: auto;
   margin-left: 5px;
