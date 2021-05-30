@@ -692,6 +692,9 @@ footer {
   .nav .social {
     display: none;
   }
+  .body {
+    left: 250px;
+  }
 }
 
 /* other styles -- mobile */
