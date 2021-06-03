@@ -2114,3 +2114,63 @@ hr {
 .body .navigate_bn a #navigate_next:hover {
   transform: scale(1.2);
 }
+.body .rar_choose .rar_choose_map {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  padding: 8px;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  margin-right: auto;
+  transition-duration: .5s;
+}
+.body .rar_choose .rar_choose_map:hover {
+  transform: translate(-8px, -8px);
+  box-shadow: 8px 8px 4px #00FFBA52;
+}
+.body .rar_choose .rar_choose_texture {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  padding: 8px;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  margin-right: auto;
+  transition-duration: .5s;
+}
+.body .rar_choose .rar_choose_texture:hover {
+  transform: translate(-8px, -8px);
+  box-shadow: 8px 8px 4px #00FFBA52;
+}
+.body .rar_choose .rar_choose_skin {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  padding: 8px;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  margin-right: auto;
+  transition-duration: .5s;
+}
+.body .rar_choose .rar_choose_skin:hover {
+  transform: translate(-8px, -8px);
+  box-shadow: 8px 8px 4px #00FFBA52;
+}
+.body .rar_choose .rar_choose_mash-up {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  padding: 8px;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  margin-right: auto;
+  transition-duration: .5s;
+}
+.body .rar_choose .rar_choose_mash-up:hover {
+  transform: translate(-8px, -8px);
+  box-shadow: 8px 8px 4px #00FFBA52;
+}
