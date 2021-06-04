@@ -515,15 +515,11 @@ footer {
   
   /* other styles -- desktop */
   
-  .body {
-    width: 633px;
-  }
-  
   .nav {
     height: 120%;
     width: 250px;
     position: fixed;
-    z-index: 3;
+    z-index: 0;
     top: 0;
     left: -255px;
     background-color: #15152A;
@@ -571,6 +567,10 @@ footer {
   }
   .nav .social {
     display: none;
+  }
+  .body {
+    display: block;
+    width: 633px;
   }
   .body .rfb-store a button {
     position: absolute;
@@ -630,7 +630,7 @@ footer {
   }
 }
 
-@media screen and (min-width:983px) {
+@media screen and (min-width:883px) {
   header h2 {
     display: none;
   }
