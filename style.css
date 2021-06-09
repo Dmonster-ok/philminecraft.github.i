@@ -629,7 +629,7 @@ footer {
   }
 }
 
-@media screen and (min-width:983px) {
+@media screen and (min-width:883px) {
   header h2 {
     display: none;
   }
@@ -649,7 +649,7 @@ footer {
     height: 120%;
     width: 250px;
     position: fixed;
-    z-index: 0;
+    z-index: 3;
     top: -60px;
     left: 0;
     background-color: #15152A;
