@@ -513,7 +513,7 @@ footer {
     align-items: center;
   }
   
-  /* other styles -- desktop */
+  /* other styles -- tablet */
   
   .nav {
     height: 120%;
@@ -701,6 +701,7 @@ footer {
 
 img {
   image-rendering: pixelated;
+  overflow: hidden;
 }
 
 hr {
