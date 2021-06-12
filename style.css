@@ -637,7 +637,7 @@ footer {
   }
 }
 
-@media screen and (min-width:883px) {
+@media screen and (min-width:983px) {
   header h2 {
     display: none;
   }
