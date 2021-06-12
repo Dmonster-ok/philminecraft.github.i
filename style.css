@@ -11,6 +11,14 @@
     transform: scale(5, 5);
   }
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
 @keyframes up_opac {
   0% {
     transform: translateY(20px);
